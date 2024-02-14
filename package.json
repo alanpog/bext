@@ -1,0 +1,31 @@
+{
+  "name": "@alanpog/bext",
+  "version": "0.0.1",
+  "description": "Bext.Dev",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "bin": {
+    "buildMap": "./dist/buildMap.js",
+    "bext": "./dist/bext.js"
+  },
+  "keywords": [],
+  "author": "alanpog",
+  "license": "MIT",
+  "homepage": "https://github.com/alanpog/bext",
+  "repository": {
+    "url": "https://github.com/alanpog/bext"
+  },
+  "devDependencies": {
+    "bun-types": "^1.0.26",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "bun": "^1.0.26",
+    "hono": "^4.0.1"
+  }
+}
